@@ -1,0 +1,20 @@
+<!doctype html>
+<html lang="en">
+  <body>
+  <h1>This is a {{age}} year-old {{animal}}</h1>
+  <!--THIS IS HOW YOU COMMENT IN HTML | BELOW IS jinja2-->
+  {% if prob or (prob == 0) %}
+  The probability of the {{animal}} getting eaten is {{prob}}
+  {% endif %}
+  <br><br>
+  <form action="/id" method="POST">
+    What is your animal?<select name="animal">
+    <option value="cat">Cat</option>
+    <option value="dog">Dog</option>
+    <option value="rabbit">Rabbit</option>
+    </select>
+    <br>How old is it (in years)? <input name="age">
+    <input type="submit" value="Refresh">
+  </form>
+  </body>
+</html>

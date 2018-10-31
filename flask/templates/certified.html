@@ -1,0 +1,51 @@
+<html>
+
+<body>
+
+
+<h1> MOOC Success Predictor </h1>
+
+
+<form action = '/id' method = 'POST'>
+What is your age?   <select name = 'age'>
+					<option value = '>=70'> 70 or older </option>
+					<option value = '60s'> 60s </option>
+					<option value = '50s'> 50s </option>
+					<option value = '40s'> 40s </option>
+					<option value = '30s'> 30s </option>
+					<option value = '25_to_30'> 25-30 </option>
+					<option value = '20_to_25'> 20-25 </option>
+					<option value = 'under_20'> 19 or younger </option>
+					</select>
+	<br />
+What is your course subject?   <select name = 'subject'>
+					<option value = 'cs'> Computer Science </option>
+					<option value = 'social'> Social Sciences </option>
+					<option value = 'mechanics'> Physics - Mechanics </option>
+					<option value = 'electrical'> Physics - Electrical </option>
+					<option value = 'bio'> Biology </option>
+					<option value = 'public_health'> Public Health </option>
+					</select>
+					<br />
+
+What is your gender?   <select name = 'gender'>
+					<option value = 'gender_f'> Female </option>
+					<option value = 'gender_m'> Male </option>
+					</select>
+					<br />
+
+What is your highest level of education?   <select name = 'education'>
+					<option value = 'LoE_DI_Less than Secondary'> Less than Secondary </option>
+					<option value = 'LoE_DI_Secondary' > Secondary</option>
+					<option value = "LoE_DI_Bachelor's"> Bachelor's </option>
+					<option value = "LoE_DI_Master's"> Master's </option>
+					<option value = 'LoE_DI_Doctorate'> Doctorate </option>
+					</select>
+					<br />
+<input type="submit" value="Submit">
+</form>
+{% if prob or (prob == 0) %}
+The probability of certification is:  {{prob}}
+{% endif %}
+</body>
+</html>
