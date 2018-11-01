@@ -1,4 +1,4 @@
-# mooc_dropout_prediction
+# MOOC Dropout Prediction Rate
 
 
 In this project, I use data compiled by HarvardX and MITx on their first year of EdX Massive Open Online Courses (MOOC) in 
