@@ -14,7 +14,7 @@ This project requires **Python** and the following Python libraries installed:
 - [Pandas](http://pandas.pydata.org/)
 - [matplotlib](http://matplotlib.org/)
 - [plotly] (https://plot.ly/python/)
-- [Flask]     (flask.pocoo.org/)
+- [Flask]     (https://flask.pocoo.org/)
 
 You will also need to have software installed to run and execute a [Jupyter Notebook](http://ipython.org/notebook.html)
 
